@@ -62,16 +62,3 @@ If any tools fail to start (e.g. missing DLLs), install:
 - [Npcap (for WinDump & Wireshark)](https://npcap.com)
 
 ---
-
-## 🧪 Example Usage
-
-```powershell
-# Run DetecSec Tools setup script
-Set-ExecutionPolicy Bypass -Scope Process -Force
-C:\DetecSec Tools\Setup\Setup-DetecSecMenu.ps1
-
-# Launch Process Monitor
-Start-Process "C:\DetecSec Tools\System Analysis\Procmon.exe"
-
-# Capture network traffic
-WinDump -D
